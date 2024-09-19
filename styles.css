@@ -1,0 +1,123 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    font-size: large;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #fff;
+  }
+  
+  .container {
+    width: 100%;
+  }
+  
+  header {
+    color: #fff;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  header h1 {
+    text-align: center;
+    margin: 0;
+  }
+  
+  nav {
+    float: right;
+    margin-top: 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 15px;
+    text-transform: uppercase;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  section {
+    height: 100vh;
+    padding: 20px;
+    margin: 0px 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  #about {
+    background-image: url('resources/images/1.png');
+  }
+
+  #projects {
+    background-image: url('resources/images/2.png');
+  }
+
+  #skills {
+    background-image: url('resources/images/3.png');
+  }
+
+  #contact {
+    background-image: url('resources/images/4.png');
+  }
+
+  section h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    color: #fff; /* Make sure text is visible on backgrounds */
+  }
+  
+  ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  li {
+    margin: 10px 0;
+  }
+  
+  footer {
+    color: #fff;
+    font-size: smaller;
+    text-align: right;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    padding: 10px;
+  }
+  
+/* For mobile screens */
+@media (max-width: 768px) {
+  nav {
+    float: none;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  footer {
+    position: relative;
+  }
+
+  section {
+    padding: 10px;
+  }
+}
